@@ -1,0 +1,33 @@
+11 de Mayo del 2017
+Front-End
+
+Un ID es mucho más específico que una class, por lo que ahí no importa el orden de los comandos CSS o HTML.
+
+ejemplo: En este caso de abajo el color del texto de <p> será azul, aunque class se escribe de último.
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		#azul {
+			color: blue;
+		}
+		.rojo{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+<div>
+	<p id="azul" class="rojo">Hellowww</p>
+</div>
+</body>
+</html>
+
+Es mucho más recomendable utilizar clases que ID's porque éstas se pueden reutilizar. Los ID's son únicos y sólo se podrán utilizar una sola vez.
+
+
+
+
